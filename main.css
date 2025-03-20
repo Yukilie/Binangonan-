@@ -1,0 +1,64 @@
+html {
+    font-size: 22px;
+
+}
+body {
+    background-color: #E8F6F3; /* Light Aqua */
+    color: #2E86AB; /* Deep Blue */
+}
+
+.horizontal-list {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.horizontal-list li {
+    display: inline; /* Makes list items display in one line */
+    margin-right: 15px; /* Adds spacing */
+}
+
+nav {
+    height: 100px;
+    background: #E8F6F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.box {
+    border: 5px solid #3498db; /* Blue border */
+    padding: 20px;
+  }
+
+  .center-img {
+    border: 5px solid #2E86AB; /* Deep Blue */
+    border-radius: 10px; /* Smooth rounded corners */
+    padding: 5px;
+    width: 80%; /* Default size */
+    max-width: 500px;
+    display: block; 
+    margin: 0 auto; /* Auto centers the image */
+  }
+
+  a {
+    display: inline-block;
+  background-color: #2E86AB; /* Deep Blue */
+  color: white;
+  padding:  20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+  } 
+
+  a:visited {
+    color: lightgray;
+
+  }
+
+  a:hover, a:active {
+
+    background-color: #3FC1C9; /* Light Aqua */
+  color: white;
+  }
